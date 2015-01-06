@@ -1,0 +1,1 @@
+window.location.href = "/jira/login.jsp?os_destination=" + window.location.href;
