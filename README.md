@@ -1,7 +1,7 @@
 # JIRA notloggedin plugin
 
-A plugin that redirects the browser to the login page if either the view
-or create issue pages are viewed when the user is not logged in.
+A plugin that redirects the browser to the login page if a user visits either
+the view or create issue page when they're not logged in.
 
 This plugin is intended to prevent users from making accidental changes
 to issues when they're not logged in. If you require a secure way of
