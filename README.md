@@ -27,4 +27,4 @@ You can then `cd` into the clone and run it.
 
     atlas-mvn package
 
-The plugin is now available at `target/notloggedin-1.0-SNAPSHOT.jar`.
+The plugin is now available at `target/notloggedin-0.1.0.jar`.
