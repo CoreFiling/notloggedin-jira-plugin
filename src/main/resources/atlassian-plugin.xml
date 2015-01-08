@@ -6,7 +6,7 @@
     </plugin-info>
     <web-resource key="notloggedin" name="notloggedin Resources">
         <dependency>jira.webresources:global-static</dependency>
-        <condition class="com.corefiling.jira.plugin.notloggedin.IsLoggedInCondition"/>
+        <condition class="com.corefiling.jira.plugin.notloggedin.IsNotLoggedInCondition"/>
         <resource type="download" name="login.js" location="/js/login.js"/>
         <context>jira.view.issue</context>
         <context>jira.create.issue</context>

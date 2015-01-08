@@ -12,7 +12,7 @@ import com.atlassian.plugin.web.Condition;
  * @copyright
  * @author pwc
  */
-public class IsLoggedInCondition implements Condition {
+public class IsNotLoggedInCondition implements Condition {
 
   @Override
   public void init(Map<String, String> params) throws PluginParseException {
