@@ -10,8 +10,7 @@ Clone this repo to the same place as the JIRA installation, e.g.,
       - notloggedin-jira-plugin/
           - ...
 
-You can then `cd` into the clone and run it, after first pulling in
-the renderer jar,
+You can then `cd` into the clone and run it.
 
     cd notloggedin-jira-plugin
     atlas-run
