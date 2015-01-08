@@ -15,7 +15,7 @@
     </organization>
 
     <name>notloggedin</name>
-    <description>This is the com.corefiling.jira.plugin:notloggedin plugin for Atlassian JIRA.</description>
+    <description>A JIRA plugin that redirects users visitng a issue page to the login page if they're not already logged in</description>
     <packaging>atlassian-plugin</packaging>
 
     <dependencies>
