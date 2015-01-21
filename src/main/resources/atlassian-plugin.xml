@@ -10,5 +10,6 @@
         <resource type="download" name="login.js" location="/js/login.js"/>
         <context>jira.view.issue</context>
         <context>jira.create.issue</context>
+        <context>gh-rapid</context>
   </web-resource>
 </atlassian-plugin>
