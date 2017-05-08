@@ -1,15 +1,19 @@
-<atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
     <plugin-info>
         <description>${project.description}</description>
         <version>${project.version}</version>
-        <vendor name="${project.organization.name}" url="${project.organization.url}" />
+        <vendor name="${project.organization.name}" url="${project.organization.url}"/>
+        <param name="plugin-icon">images/pluginIcon.png</param>
+        <param name="plugin-logo">images/pluginLogo.png</param>
     </plugin-info>
-    <web-resource key="notloggedin" name="notloggedin Resources">
-        <dependency>jira.webresources:global-static</dependency>
+    <web-resource name="notloggedin" i18n-name-key="notloggedin.name" key="notloggedin">
+        <description key="notloggedin.description">The notloggedin Plugin</description>
         <condition class="com.corefiling.jira.plugin.notloggedin.IsNotLoggedInCondition"/>
-        <resource type="download" name="login.js" location="/js/login.js"/>
+        <resource name="login.js" type="download" location="/js/login.js"/>
         <context>jira.view.issue</context>
         <context>jira.create.issue</context>
         <context>gh-rapid</context>
-  </web-resource>
+    </web-resource>
 </atlassian-plugin>
