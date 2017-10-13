@@ -3,6 +3,6 @@ var allowAnonymous = function(){
     return window.location.href.search("[?&]anonymous=true") != -1;
 };
 
-if (!allowAnonymous) {
+if (!allowAnonymous()) {
   window.location.href = contextPath + "/login.jsp?os_destination=" + window.location.href
 }
